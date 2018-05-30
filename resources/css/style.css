@@ -130,6 +130,7 @@ figcaption {
 .information-box {
   background-color: black;
   padding: 1rem 0 1rem 2rem;
+  width: 15rem;
 }
 
 .location, .hours {
@@ -138,6 +139,7 @@ figcaption {
 
 .info-text {
   color: black;
+  padding-top: 0.3rem;
 }
 
 /*FOOTER SECTION*/
