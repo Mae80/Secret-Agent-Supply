@@ -161,29 +161,43 @@ footer  {
 /*MEDIA QUERIES STYLES*/
 
 @media only screen and (max-width: 1024px) {
+  /* RESPONSIVE NAVIGATION BAR */
 nav ul li{
   display: none;
 }
 
 nav ul .menu {
   display: list-item;
-  padding-top: 0.35rem;
-   padding-bottom: 0.35rem;
+  padding-top: 0.25rem;
+   padding-bottom: 0.25rem;
    margin: auto;
    font-size: 1.2rem;
 }
 
-
-.invisible-item b{
+/*RESPONSIVE IMAGE SECTION */
+.invisible-img-2{
   display: none;
 }
 
-  figure .img, figure figcaption {
+  figure  {
     width: 47%;
   }
 }
 
 @media only screen and (max-width: 470px) {
+  /* RESPONSIVE NAVIGATION BAR */
+nav ul li{
+  display: none;
+}
+
+nav ul .menu {
+  display: list-item;
+  padding-top: 0.25rem;
+   padding-bottom: 0.25rem;
+   margin: auto;
+   font-size: 1.2rem;
+}
+
 
 .invisible-item b, .invisible-item a {
   display: none;
