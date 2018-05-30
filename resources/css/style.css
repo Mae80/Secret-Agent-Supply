@@ -185,27 +185,66 @@ nav ul .menu {
 }
 
 @media only screen and (max-width: 470px) {
-  /* RESPONSIVE NAVIGATION BAR */
-nav ul li{
+/* RESPONSIVE NAVIGATION SECTION */
+  nav ul li{
   display: none;
 }
 
-nav ul .menu {
+ nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+ nav ul .menu {
   display: list-item;
   padding-top: 0.25rem;
    padding-bottom: 0.25rem;
    margin: auto;
    font-size: 1.2rem;
+
 }
 
-
-.invisible-item b, .invisible-item a {
+/*RESPONSIVE IMAGE SECTION */
+.invisible-img-1,
+.invisible-img-2{
   display: none;
 }
 
-figure {
-  width: 90%;
-}
-}
+  .product .container  {
+    width: 90%;
+  }
+
+  .supporting-img {
+    display: block;
+  }
+
+ /*Responsive information section */
+  /*Deze sectie is niet helemaal goed*/
+
+  .information {
+    width: 100%;
+
+    /*justify-content: center;*/
+
+  }
+
+  .location {
+    width: 97%;
+    display: block;
+  }
+
+   .hours {
+    width: 97%;
+     display: block;
+  }
+
+
+  /*NAV*/
+
+  footer .container {
+    display: flex;
+    justify-content: center;
+  }
+
 
 }
