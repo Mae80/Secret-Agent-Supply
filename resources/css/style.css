@@ -92,6 +92,10 @@ nav .container ul{
 
 }
 
+nav ul .menu {
+  display: none;
+}
+
 /*PRODUCT SECTION*/
 
 .product {
@@ -161,12 +165,20 @@ nav ul li{
   display: none;
 }
 
+nav ul .menu {
+  display: list-item;
+  padding-top: 0.35rem;
+   padding-bottom: 0.35rem;
+   margin: auto;
+   font-size: 1.2rem;
+}
+
 
 .invisible-item b{
   display: none;
 }
 
-  figure {
+  figure .img, figure figcaption {
     width: 47%;
   }
 }
