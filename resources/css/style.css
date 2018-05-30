@@ -14,6 +14,8 @@ html {
 .logo {
   background-color: black;
   padding: 0.66rem 0;
+  /*position: fixed;
+  z-index: 1;*/
   }
 
 .logo .container {
@@ -33,6 +35,7 @@ html {
   text-transform: uppercase;
   display: inline-block;
   padding-left: 1rem;
+
 }
 
 /* BANNER SECTION */
@@ -101,12 +104,14 @@ figure {
   width: 30%;
   height: auto;
   margin-top: 3rem;
+
   }
 
 figure img {
   width: 9rem;
   height: 9rem;
   padding: 2rem;
+
 }
 
 figcaption {
